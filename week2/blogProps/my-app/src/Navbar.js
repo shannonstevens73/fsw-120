@@ -7,15 +7,13 @@ function Navbar() {
                         listStyleType: "none", 
                         display: "flex", 
                         flexFlow: "row",
-                        paddingTop: "10px", 
-                        color: "white",
-                        fontSize: "150"}}>
+                        paddingTop: "10px"}}>
 
-                        <li style={{fontWeight: "bold", paddingLeft: "180px", paddingRight: "225px"}}>Start Bootstrap</li>
-                        <li style={{paddingRight: "13px"}}><a href="#">Home</a></li>
-                        <li style={{paddingRight: "13px"}}>About</li>
-                        <li style={{paddingRight: "13px"}}>Sample Blog</li>
-                        <li>Contact</li>
+                        <li style={{color: "white", fontSize: "10px", fontWeight: "bold", paddingLeft: "180px", paddingRight: "250px", fontFamily: "sans-serif"}}><a style={{color: "white", fontSize: "10px", textDecoration: "none"}} href="#">Start Bootstrap</a></li>
+                        <li style={{paddingRight: "13px"}}><a style={{color: "white", fontSize: "10px", textDecoration: "none"}} href="#">Home</a></li>
+                        <li style={{paddingRight: "13px"}}><a style={{color: "white", fontSize: "10px", textDecoration: "none"}} href="#">About</a></li>
+                        <li style={{paddingRight: "13px"}}><a style={{color: "white", fontSize: "10px", textDecoration: "none"}} href="#">Sample Blog</a></li>
+                        <li><a style={{color: "white", fontSize: "10px", textDecoration: "none"}} href="#">Contact</a></li>
                 </ul>                     
         </div>
     )
