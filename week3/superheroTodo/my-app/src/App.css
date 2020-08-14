@@ -1,0 +1,15 @@
+
+.name {
+  text-align: center;
+  font-size: medium;
+  font-weight: bolder;
+  color: purple;
+}
+
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  
+}
