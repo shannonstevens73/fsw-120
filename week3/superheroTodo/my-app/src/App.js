@@ -16,7 +16,7 @@ class App extends React.Component {
   }  
     
   render() {
-    const heroItems = HeroData.map(item => <SuperHero key={item.id} name={item.name} show={item.show} catchPhrase={item.catchPhrase} imageName={item.imageName} handleChange={this.handleChange}/>)
+    const heroItems = HeroData.map(item => <SuperHero key={item.id} name={item.name} show={item.show} catchPhrase={item.catchPhrase} imageName={item.imageName} />)
 
   
     return (
