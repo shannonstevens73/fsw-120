@@ -51,7 +51,8 @@ class App extends Component {
                         this.state.email.length > 2 &&
                         this.state.placeOfBirth.length > 2 &&
                         this.state.phone.length > 2 &&
-                        this.state.favoriteFood.length > 2
+                        this.state.favoriteFood.length > 2 &&
+                        this.state.bio.length > 2
 
         return (
             <main>
