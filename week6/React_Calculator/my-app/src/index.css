@@ -1,0 +1,162 @@
+* {
+  background-color: black;
+}
+
+#calculator {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  padding: 20px 20px;
+  margin-top: 20px;
+}
+
+h4 {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+  color: lightgray;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#row1 {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+  display: flex;
+  justify-content: center;
+}
+
+#row2 {
+  grid-column: 3 /4;
+  grid-row: 3 / 4;
+  display: flex;
+  justify-content: center;
+}
+
+#row3 {
+  grid-column: 3 / 4;
+  grid-row: 4 / 5;
+  display: flex;
+  justify-content: center;
+}
+
+#row4 {
+  grid-column: 3 / 4;
+  grid-row: 5 / 6;
+  display: flex;
+  justify-content: center;
+}
+
+#row5 {
+  grid-column: 3 / 4;
+  grid-row: 6 / 7;
+  display: flex;
+  justify-content: center;
+}
+
+#display {
+  height: 40px;
+  width: 160px;
+  text-align: right;
+  color: whitesmoke;
+}
+
+#zero {
+  height: 40px;
+  width: 40px;
+  background-color: lightgray;
+}
+
+#one {
+  height: 40px;
+  width: 40px;
+  background-color: lightgray;
+}
+
+#two {
+  height: 40px;
+  width: 40px;
+  background-color: lightgray;
+}
+
+#three {
+  height: 40px;
+  width: 40px;
+  background-color: lightgray;
+}
+
+#four {
+  height: 40px;
+  width: 40px;
+  background-color: lightgray;
+}
+
+#five {
+  height: 40px;
+  width: 40px;
+  background-color: lightgray;
+}
+#six {
+  height: 40px;
+  width: 40px;
+  background-color: lightgray;
+}
+
+#seven {
+  height: 40px;
+  width: 40px;
+  background-color: lightgray;
+}
+
+#eight {
+  height: 40px;
+  width: 40px;
+  background-color: lightgray;
+}
+
+#nine {
+  height: 40px;
+  width: 40px;
+  background-color: lightgray;
+}
+
+#nine {
+  height: 40px;
+  width: 40px;
+  background-color: lightgray;
+}
+#add {
+  height: 40px;
+  width: 40px;
+  background-color: lightseagreen;
+}
+
+#minus {
+  height: 40px;
+  width: 40px;
+  background-color: lightseagreen;
+}
+
+#multiply {
+  height: 40px;
+  width: 40px;
+  background-color: lightseagreen;
+}
+
+#divide {
+  height: 40px;
+  width: 40px;
+  background-color: lightseagreen;
+}
+
+#equals {
+  height: 40px;
+  width: 40px;
+  background-color: rgb(78, 223, 215);
+}
+
+#clear {
+  height: 40px;
+  width: 40px;
+  background-color: slategray;
+  font-size: 10px;
+}
