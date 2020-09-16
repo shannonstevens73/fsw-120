@@ -44,8 +44,6 @@ function AddTweetForm(props){
                 value={inputs.tweet}
                 onChange={handleChange}
                 placeholder="tweet"
-                rows="4"
-                cols="50"
             ></textarea>
 
             <br /><br />                   
